@@ -19,4 +19,19 @@
   background-color: #ccacac;
 }
 
+/* For successful message */
+
+#successmsg {
+    font-weight: bold;
+    color: green;
+}
+
+/* For drag item */
+
+.dragged {
+    opacity: 0.5;
+}
+
+/* For reset button */
+
 
