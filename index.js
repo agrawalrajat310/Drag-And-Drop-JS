@@ -56,7 +56,7 @@ function drop(e) {
 
 function resetBtn() {
   contn1.innerHTML =
-    '<div class="submain">Item 1</div><div class="submain">Item 2</div><div class="submain">Item 3</div>';
+    '<div class="submain">Image</div><div class="submain">Text</div><div class="submain">Icon</div>';
 
   contn2.innerHTML = "";
 
