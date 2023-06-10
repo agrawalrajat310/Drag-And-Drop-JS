@@ -22,16 +22,18 @@
 /* For successful message */
 
 #successmsg {
-    font-weight: bold;
-    color: green;
+  font-weight: bold;
+  color: green;
 }
 
 /* For drag item */
 
 .dragged {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 /* For reset button */
 
-
+.resetbtn {
+  margin-top: 10px;
+}
