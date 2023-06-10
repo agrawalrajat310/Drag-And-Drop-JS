@@ -1,7 +1,22 @@
 /* CSS Code */
 
+/* For both containers */
 
- /* For both containers */
+.main {
+  border: 1px solid #b92929;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  margin-right: 20px;
+  float: left;
+}
 
- 
+/* For items */
+
+.submain {
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #ccacac;
+}
+
 
