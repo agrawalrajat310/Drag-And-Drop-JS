@@ -36,3 +36,29 @@ function dEnd(e) {
 function dOver(e) {
   e.preventDefault();
 }
+
+// event handler for drop
+
+function drop(e) {
+  e.preventDefault();
+
+  let iteID = e.dataTransfer.getData("text/plain");
+
+  let itemDrop = document.getElementById(iteID);
+
+  contn2.appendChild(itemDrop);
+
+  document.getElementById("successmsg").innerText =
+    "Item Dropped Successfully !!";
+}
+
+// event handler for reset containers value
+
+function resetBtn() {
+  contn1.innerHTML =
+    '<div class="submain">Item 1</div><div class="submain">Item 2</div><div class="submain">Item 3</div>';
+
+  contn2.innerHTML = "";
+
+  document.getElementById("successmsg").innerText = "";
+}
