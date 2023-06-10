@@ -24,3 +24,15 @@ function dStart(e) {
   e.dataTransfer.setData("text/plain", e.target.id);
   e.target.classList.add("dragged");
 }
+
+// event handler for drag end
+
+function dEnd(e) {
+  e.target.classList.remove("dragged");
+}
+
+// event handler for drag over
+
+function dOver(e) {
+  e.preventDefault();
+}
