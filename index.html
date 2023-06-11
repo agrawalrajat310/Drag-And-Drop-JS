@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop Implementation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>First Container</h2>
+      <div id="container1" class="droppable">
+        <img
+          class="draggable"
+          src="image1.jpg"
+          draggable="true"
+          alt="Image 1"
+        />
+        <img
+          class="draggable"
+          src="image2.jpg"
+          draggable="true"
+          alt="Image 2"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Second Container</h2>
+      <div id="container2" class="droppable"></div>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
